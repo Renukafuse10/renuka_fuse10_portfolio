@@ -10,7 +10,8 @@ import bgImg from "../public/hero/bg.png";
 
 const Hero = () => {
   const handleDownloadResume = () => {
-    const resumeUrl = "/resume/Renuka_Fuse_Resume.pdf"; // replace with your resume file
+    const resumeUrl =
+      "https://oovftpuifmhgymrkvrst.supabase.co/storage/v1/object/public/resume/Renuka%20Fuse%20Resume%20(2).pdf"; // replace with your resume file
     window.open(resumeUrl, "_blank");
   };
 
