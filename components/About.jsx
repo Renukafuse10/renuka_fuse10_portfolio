@@ -24,15 +24,16 @@ const frontendSkills = [
   { icon: <SiNextdotjs size={50} className="text-black" />, label: "Next.js" },
   { icon: <IoLogoCss3 size={50} className="text-blue-500" />, label: "CSS" },
   { icon: <FaHtml5 size={50} className="text-red-500" />, label: "HTML" },
-  {
-    icon: <SiSupabase size={50} className="text-green-500" />,
-    label: "Supabase",
-  },
+ 
 ];
 
 const backendSkills = [
   { icon: <FaNodeJs size={45} className="text-green-500" />, label: "Node.js" },
   { icon: <SiExpress size={45} className="text-black" />, label: "Express.js" },
+  {
+    icon: <SiSupabase size={50} className="text-green-500" />,
+    label: "Supabase",
+  },
   { icon: <SiMysql size={45} className="text-cyan-500" />, label: "MySQL" },
 ];
 
@@ -93,29 +94,26 @@ const About = React.memo(function About() {
           </section>
 
           <p className="lg:text-xl text-lg text-gray-700 font-normal">
-            Hello! I&apos;m Renuka Fuse, a passionate and dedicated Full Stack
-            Web Developer. I have completed my MCA from Nagpur University.
-          </p>
-          <p className="lg:text-xl text-lg text-gray-700 font-normal">
             I specialize in building responsive, user-friendly, and
-            high-performance web applications. I am proficient in JavaScript,
-            Next.js (React framework), Node.js, and Express.js, and have
-            experience delivering projects that seamlessly integrate frontend
-            and backend systems.
+            high-performance web applications using JavaScript, Next.js (React
+            framework), Node.js, and Express.js.{" "}
           </p>
           <p className="lg:text-xl text-lg text-gray-700 font-normal">
-            Through real-world projects, I have gained experience in creating
-            clean, user-friendly interfaces, building reliable backend systems,
-            and developing SEO-optimized websites, enabling me to deliver
-            efficient and scalable web applications that perform well across
-            platforms and search engines.
+            I have hands-on experience in developing clean interfaces, reliable
+            backend systems, and SEO-optimized websites, enabling me to deliver
+            scalable applications that perform seamlessly across platforms.
+          </p>
+          <p className="lg:text-xl text-lg text-gray-700 font-normal">
+            I also work with Supabase OAuth, REST APIs, payment gateway
+            integration, PDF generation, and resume parsing, adding advanced
+            functionality to meet real-world business needs.
           </p>
 
           {/* Social & Contact */}
           <section className="flex max-md:flex-col gap-6 md:items-center">
             <section className="flex items-center gap-4 mt-3">
               <a
-                href="https://linkedin.com/in/theavnishkumar"
+                href="https://www.linkedin.com/in/renuka-fuse-r10/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
@@ -123,33 +121,33 @@ const About = React.memo(function About() {
                 <RiLinkedinFill className="bg-white transform hover:-translate-y-1.5 w-12 h-12 rounded-xl duration-500 text-blue-500 hover:bg-blue-500 p-1.5 hover:text-white" />
               </a>
               <a
-                href="https://github.com/theavnishkumar"
+                href="https://github.com/Renukafuse10"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub"
               >
                 <PiGithubLogoFill className="bg-white transform hover:-translate-y-1.5 w-12 h-12 rounded-xl duration-500 text-black hover:bg-black p-1.5 hover:text-white" />
               </a>
-              <a
+              {/* <a
                 href="https://x.com/theavnishkumar"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="X"
               >
                 <FaXTwitter className="bg-white transform hover:-translate-y-1.5 w-12 h-12 rounded-xl duration-500 text-black hover:bg-black p-1.5 hover:text-white" />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://instagram.com/theavnishkumar"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Instagram"
               >
                 <FaInstagram className="bg-white transform hover:-translate-y-1.5 w-12 h-12 rounded-xl duration-500 text-pink-500 hover:bg-pink-500 p-1.5 hover:text-white" />
-              </a>
+              </a> */}
             </section>
 
             <section className="flex gap-4">
-              <Link href="mailto:hi@theavnishkumar.in">
+              <Link href="mailto:renukafuse22@gmail.com">
                 <button
                   className="flex items-center px-3 py-2 bg-emerald-700 hover:bg-emerald-800 rounded-md text-white outline-none focus:ring-1 shadow-lg transform active:scale-y-90 transition-transform"
                   aria-label="Contact Button"

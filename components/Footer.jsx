@@ -8,33 +8,33 @@ const Footer = () => {
     {
       id: 1,
       name: "Linkedin",
-      link: "https://linkedin.com/in/theavnishkumar",
+      link: "https://www.linkedin.com/in/renuka-fuse-r10/",
       icon: <FaExternalLinkAlt />,
     },
     {
       id: 2,
       name: "Github",
-      link: "https://github.com/theavnishkumar",
+      link: "https://github.com/Renukafuse10",
       icon: <FaExternalLinkAlt />,
     },
-    {
-      id: 3,
-      name: "Facebook",
-      link: "https://facebook.com/theavnishkumar",
-      icon: <FaExternalLinkAlt />,
-    },
-    {
-      id: 4,
-      name: "X (Twitter)",
-      link: "https://x.com/theavnishkumar",
-      icon: <FaExternalLinkAlt />,
-    },
-    {
-      id: 5,
-      name: "Instagram",
-      link: "https://instagram.com/theavnishkumar",
-      icon: <FaExternalLinkAlt />,
-    },
+    // {
+    //   id: 3,
+    //   name: "Facebook",
+    //   link: "https://facebook.com/theavnishkumar",
+    //   icon: <FaExternalLinkAlt />,
+    // },
+    // {
+    //   id: 4,
+    //   name: "X (Twitter)",
+    //   link: "https://x.com/theavnishkumar",
+    //   icon: <FaExternalLinkAlt />,
+    // },
+    // {
+    //   id: 5,
+    //   name: "Instagram",
+    //   link: "https://instagram.com/theavnishkumar",
+    //   icon: <FaExternalLinkAlt />,
+    // },
   ];
 
   const credit = [
@@ -83,12 +83,12 @@ const Footer = () => {
           <section className="p-2 flex flex-col items-center w-fit gap-2 text-gray-800">
             <span className="flex gap-1 items-center">
               <FaLocationDot />
-              <address>Buxar, Bihar, India</address>
+              <address>Nandanvan, Nagpur, India</address>
             </span>
             <span className="flex gap-2 items-center">
               <IoIosMail className="text-xl" />
-              <Link href="mailto:hi@theavnishkumar.in">
-                hi@theavnishkumar.in
+              <Link href="mailto:renukafuse22@gmail.com">
+                renukafuse22@gmail.com
               </Link>
             </span>
           </section>
@@ -135,7 +135,7 @@ const Footer = () => {
         <p>
           &copy; {currentYear}{" "}
           <span className="text-black font-semibold underline">
-            Avnish Kumar
+            Renuka Fuse
           </span>
           . All rights reserved.
         </p>
