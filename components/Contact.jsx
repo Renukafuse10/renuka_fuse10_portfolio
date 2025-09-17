@@ -69,7 +69,7 @@ const Contact = () => {
         <section className="p-1 lg:w-1/3 max-w-fit flex items-center max-lg:hidden">
           <Image
             className=""
-            src="/contact/email.svg"
+            src="/contact/email.png"
             alt="email"
             priority={false}
             height={300}

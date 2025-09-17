@@ -6,7 +6,7 @@ import { PiGithubLogoFill } from "react-icons/pi";
 import { IoIosMail } from "react-icons/io";
 import { IoDocumentText } from "react-icons/io5";
 import Link from "next/link";
-import bgImg from "../public/hero/bg.png";
+import bgImg from "../public/hero/hero.png";
 
 const Hero = () => {
   const handleDownloadResume = () => {
