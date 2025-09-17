@@ -5,57 +5,59 @@ import Provider from "@/components/Provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title:
-    "Avnish Kumar – Full Stack Web Developer | MERN & JavaScript Developer",
+  title: "Renuka Fuse – Full Stack Web Developer | MERN & JavaScript Developer",
   description:
-    "Avnish Kumar is a Full Stack Web Developer from Buxar, Bihar, and a 2024 Computer Science graduate from Gyan Ganga Institute of Technology and Sciences, Jabalpur. He builds fast, clean, and responsive web apps using React, Node.js, Express, MongoDB, NestJS, and TypeScript.",
+    "Renuka Fuse is a Full Stack Web Developer pursuing MCA from Nagpur University. She specializes in building responsive, user-friendly, and high-performance web applications using JavaScript, Next.js, Node.js, Express.js, Supabase, and Tailwind CSS.",
   keywords: [
-    "Avnish",
-    "Avnish Kumar",
-    "theavnishkumar",
-    "Avnish Kumar web developer",
-    "Avnish Kumar full stack developer",
-    "Avnish Kumar MERN developer",
-    "Avnish Kumar NestJS",
-    "Avnish Kumar JavaScript",
-    "Avnish Kumar Jabalpur",
-    "Avnish Kumar Buxar",
-    "Avnish Kumar portfolio",
+    "Renuka",
+    "Renuka Fuse",
+    "therenukafuse",
+    "Renuka Fuse web developer",
+    "Renuka Fuse full stack developer",
+    "Renuka Fuse MERN developer",
+
+    "Renuka Fuse JavaScript",
+
+    "Renuka Fuse Nagpur",
+    "Renuka Fuse portfolio",
     "Full Stack Developer India",
     "MERN Stack Developer Bihar",
     "JavaScript Developer India",
     "React Node Developer",
   ],
   authors: [
-    { name: "Avnish kumar" },
-    { name: "Avnish Kumar", url: "https://theavnishkumar.in" },
+    { name: "Renuka Fuse" },
+    {
+      name: "Renuka Fuse",
+      url: "https://renuka-fuse10-portfolio.vercel.app/",
+    },
   ],
-  creator: "Avnish Kumar",
-  publisher: "Avnish Kumar",
+  creator: "Renuka Fuse",
+  publisher: "Renuka Fuse",
   category: "Technology",
-  metadataBase: new URL("https://theavnishkumar.in"),
+  metadataBase: new URL("https://renuka-fuse10-portfolio.vercel.app/"),
   formatDetection: {
     email: true,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: "Avnish Kumar – Full Stack Developer | React, Node, MongoDB",
+    title: "Renuka Fuse – Full Stack Developer | React, Node, MongoDB",
     description:
-      "Explore the portfolio of Avnish Kumar, a Full Stack Developer skilled in MERN stack, TypeScript, Java, and more. Based in Bihar, India – building modern web apps with React, Node.js, and MongoDB.",
-    url: "https://theavnsihkumar.in",
-    siteName: "Avnish Kumar",
+      "Explore the portfolio of Renuka Fuse, a Full Stack Developer skilled in MERN stack, TypeScript, Java, and more. Based in Nagpur, India – building modern web apps with React, Node.js, and MongoDB.",
+    url: "https://renuka-fuse10-portfolio.vercel.app/",
+    siteName: "Renuka Fuse",
     images: [
-      {
-        url: "/avnishkumar/avnish.jpg",
-        width: 600,
-        height: 600,
-      },
-      {
-        url: "/avnishkumar/avnishkumar.jpg",
-        width: 500,
-        height: 600,
-      },
+      // {
+      //   url: "/avnishkumar/avnish.jpg",
+      //   width: 600,
+      //   height: 600,
+      // },
+      // {
+      //   url: "/avnishkumar/avnishkumar.jpg",
+      //   width: 500,
+      //   height: 600,
+      // },
       // {
       //   url: 'https://nextjs.org/og-alt.png', // Must be an absolute URL
       //   width: 1800,
@@ -71,20 +73,11 @@ export const metadata = {
     shortcut: "/shortcut-icon.png",
     apple: "/apple-icon.png",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Avnish Kumar – Full Stack Developer | React & Node.js",
-    description:
-      "Avnish Kumar is a Full Stack Web Developer from Bihar, India. Skilled in JavaScript, React, Node.js, MongoDB, NestJS, and more. Visit portfolio to know more.",
-    siteId: "",
-    creator: "@theavnishkumar",
-    creatorId: "@theavnishkumar",
-    images: ["/avnishkumar/avnishkumar.jpg"],
-  },
+
   verification: {
     google: "google",
-    yandex: "yandex",
-    yahoo: "yahoo",
+    // yandex: "yandex",
+    // yahoo: "yahoo",
     // other: {
     //   me: ['my-email', 'my-link'],
     // },

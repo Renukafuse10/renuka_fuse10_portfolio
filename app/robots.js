@@ -12,6 +12,6 @@ export default function robots() {
                 disallow: ['/resume/'],
             },
         ],
-        sitemap: 'https://theavnishkumar.in/sitemap.xml',
+        sitemap: 'https://therenukafuse.in/sitemap.xml',
     }
 }
