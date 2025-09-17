@@ -18,6 +18,14 @@ export const project_data = [
     image: "daycare.png",
   },
   {
+  title: "Invoice Approval Management System",
+  badges: ["Next.js", "Tailwind CSS", "Supabase", "Node.js", "Express.js"],
+  description:
+    "A web-based system for managing invoice approvals across multiple departments, featuring department-wise workflow, invoice status tracking, and lifecycle management for efficient and organized processing.",
+  live: "https://ratan-india-invoice.vercel.app/", // replace with live link if available
+  image: "ratan.png", // replace with your project image
+},
+  {
     title: "Financial Planning & Advisory Tool",
     badges: ["Next.js", "Tailwind CSS"],
     description:
@@ -33,4 +41,5 @@ export const project_data = [
     live: "https://new-ansil-byte-website.vercel.app/",
     image: "ansil.png",
   },
+
 ];
